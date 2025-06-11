@@ -6,7 +6,7 @@ It demonstrates how you can perform similarity search on Oracle AI Vector Search
 
 ## 🚀 Getting Started
 
-You can quickly get an image of Oracle Graph Server (using Podman):
+You can quickly get an image of Oracle Database 23ai Free (using Podman):
 
 - [Oracle Container Registry](https://container-registry.oracle.com)  Go to **Database > free (23ai)**
 
