@@ -14,10 +14,6 @@ You can quickly get an image of Oracle Graph Server (using Podman):
 podman run --name oracle32aifree -p 1521:1521 -e ORACLE_PWD=password container-registry.oracle.com/database/free:latest
 ```
 
-Run the script [`hopcroftkarp.sql`](hopcroftkarp.sql) using `sqlcl` or `sqlplus`.
-
----
-
 ## 📋 Steps
 
 Load sample data:
