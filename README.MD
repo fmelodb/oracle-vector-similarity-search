@@ -1,6 +1,6 @@
 # Oracle Vector - Similarity Search Demo
 
-It demonstrates how you can perform similarity search on Oracle AI Vector Search using Python (no framework).
+It demonstrates how you can perform similarity search on Oracle AI Vector Search using Python.
 
 ---
 
@@ -20,17 +20,17 @@ Run the script [`hopcroftkarp.sql`](hopcroftkarp.sql) using `sqlcl` or `sqlplus`
 
 ## 📋 Steps
 
-# 1. load sample data
+Load sample data:
 ```sh
 python schema_setup.py
 ```
 
-# 2. vectorize the data using a transformers model
+Vectorize the data using a transformer model:
 ```sh
 python vectorize_table_SentenceTransformers.py
 ```
 
-# 3. perform similarity search
+Perform similarity search:
 ```sh
 python similarity_search_SentenceTransformers.py
 ```
